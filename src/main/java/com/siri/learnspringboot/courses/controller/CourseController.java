@@ -35,7 +35,7 @@ public class CourseController {
     	return course.get();
 	}
 	
-	}
+	
 	
 	@PutMapping("/courses/{id}")
 	public void updateCourse(@PathVariable long id, @RequestBody Course course){
